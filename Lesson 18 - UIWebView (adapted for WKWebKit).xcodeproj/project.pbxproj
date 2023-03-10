@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A87841AE29BB44BC009C58FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87841AD29BB44BC009C58FE /* AppDelegate.swift */; };
+		A87841B029BB44BC009C58FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87841AF29BB44BC009C58FE /* SceneDelegate.swift */; };
+		A87841B229BB44BC009C58FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87841B129BB44BC009C58FE /* ViewController.swift */; };
+		A87841B529BB44BC009C58FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87841B329BB44BC009C58FE /* Main.storyboard */; };
+		A87841B729BB44BE009C58FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87841B629BB44BE009C58FE /* Assets.xcassets */; };
+		A87841BA29BB44BE009C58FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87841B829BB44BE009C58FE /* LaunchScreen.storyboard */; };
+		A87841C529BB44BE009C58FE /* Lesson_18___UIWebView__adapted_for_WKWebKit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87841C429BB44BE009C58FE /* Lesson_18___UIWebView__adapted_for_WKWebKit_Tests.swift */; };
+		A87841CF29BB44BE009C58FE /* Lesson_18___UIWebView__adapted_for_WKWebKit_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87841CE29BB44BE009C58FE /* Lesson_18___UIWebView__adapted_for_WKWebKit_UITests.swift */; };
+		A87841D129BB44BE009C58FE /* Lesson_18___UIWebView__adapted_for_WKWebKit_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87841D029BB44BE009C58FE /* Lesson_18___UIWebView__adapted_for_WKWebKit_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A87841C129BB44BE009C58FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A87841A229BB44BC009C58FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A87841A929BB44BC009C58FE;
+			remoteInfo = "Lesson 18 - UIWebView (adapted for WKWebKit)";
+		};
+		A87841CB29BB44BE009C58FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A87841A229BB44BC009C58FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A87841A929BB44BC009C58FE;
+			remoteInfo = "Lesson 18 - UIWebView (adapted for WKWebKit)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A87841AA29BB44BC009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 18 - UIWebView (adapted for WKWebKit).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87841AD29BB44BC009C58FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A87841AF29BB44BC009C58FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A87841B129BB44BC009C58FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A87841B429BB44BC009C58FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A87841B629BB44BE009C58FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A87841B929BB44BE009C58FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A87841BB29BB44BE009C58FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87841C029BB44BE009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 18 - UIWebView (adapted for WKWebKit)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87841C429BB44BE009C58FE /* Lesson_18___UIWebView__adapted_for_WKWebKit_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson_18___UIWebView__adapted_for_WKWebKit_Tests.swift"; sourceTree = "<group>"; };
+		A87841CA29BB44BE009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 18 - UIWebView (adapted for WKWebKit)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87841CE29BB44BE009C58FE /* Lesson_18___UIWebView__adapted_for_WKWebKit_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson_18___UIWebView__adapted_for_WKWebKit_UITests.swift"; sourceTree = "<group>"; };
+		A87841D029BB44BE009C58FE /* Lesson_18___UIWebView__adapted_for_WKWebKit_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson_18___UIWebView__adapted_for_WKWebKit_UITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A87841A729BB44BC009C58FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87841BD29BB44BE009C58FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87841C729BB44BE009C58FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A87841A129BB44BC009C58FE = {
+			isa = PBXGroup;
+			children = (
+				A87841AC29BB44BC009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit) */,
+				A87841C329BB44BE009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit)Tests */,
+				A87841CD29BB44BE009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit)UITests */,
+				A87841AB29BB44BC009C58FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A87841AB29BB44BC009C58FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A87841AA29BB44BC009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit).app */,
+				A87841C029BB44BE009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit)Tests.xctest */,
+				A87841CA29BB44BE009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A87841AC29BB44BC009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit) */ = {
+			isa = PBXGroup;
+			children = (
+				A87841AD29BB44BC009C58FE /* AppDelegate.swift */,
+				A87841AF29BB44BC009C58FE /* SceneDelegate.swift */,
+				A87841B129BB44BC009C58FE /* ViewController.swift */,
+				A87841B329BB44BC009C58FE /* Main.storyboard */,
+				A87841B629BB44BE009C58FE /* Assets.xcassets */,
+				A87841B829BB44BE009C58FE /* LaunchScreen.storyboard */,
+				A87841BB29BB44BE009C58FE /* Info.plist */,
+			);
+			path = "Lesson 18 - UIWebView (adapted for WKWebKit)";
+			sourceTree = "<group>";
+		};
+		A87841C329BB44BE009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A87841C429BB44BE009C58FE /* Lesson_18___UIWebView__adapted_for_WKWebKit_Tests.swift */,
+			);
+			path = "Lesson 18 - UIWebView (adapted for WKWebKit)Tests";
+			sourceTree = "<group>";
+		};
+		A87841CD29BB44BE009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A87841CE29BB44BE009C58FE /* Lesson_18___UIWebView__adapted_for_WKWebKit_UITests.swift */,
+				A87841D029BB44BE009C58FE /* Lesson_18___UIWebView__adapted_for_WKWebKit_UITestsLaunchTests.swift */,
+			);
+			path = "Lesson 18 - UIWebView (adapted for WKWebKit)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A87841A929BB44BC009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87841D429BB44BE009C58FE /* Build configuration list for PBXNativeTarget "Lesson 18 - UIWebView (adapted for WKWebKit)" */;
+			buildPhases = (
+				A87841A629BB44BC009C58FE /* Sources */,
+				A87841A729BB44BC009C58FE /* Frameworks */,
+				A87841A829BB44BC009C58FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lesson 18 - UIWebView (adapted for WKWebKit)";
+			productName = "Lesson 18 - UIWebView (adapted for WKWebKit)";
+			productReference = A87841AA29BB44BC009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit).app */;
+			productType = "com.apple.product-type.application";
+		};
+		A87841BF29BB44BE009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87841D729BB44BE009C58FE /* Build configuration list for PBXNativeTarget "Lesson 18 - UIWebView (adapted for WKWebKit)Tests" */;
+			buildPhases = (
+				A87841BC29BB44BE009C58FE /* Sources */,
+				A87841BD29BB44BE009C58FE /* Frameworks */,
+				A87841BE29BB44BE009C58FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A87841C229BB44BE009C58FE /* PBXTargetDependency */,
+			);
+			name = "Lesson 18 - UIWebView (adapted for WKWebKit)Tests";
+			productName = "Lesson 18 - UIWebView (adapted for WKWebKit)Tests";
+			productReference = A87841C029BB44BE009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A87841C929BB44BE009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87841DA29BB44BE009C58FE /* Build configuration list for PBXNativeTarget "Lesson 18 - UIWebView (adapted for WKWebKit)UITests" */;
+			buildPhases = (
+				A87841C629BB44BE009C58FE /* Sources */,
+				A87841C729BB44BE009C58FE /* Frameworks */,
+				A87841C829BB44BE009C58FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A87841CC29BB44BE009C58FE /* PBXTargetDependency */,
+			);
+			name = "Lesson 18 - UIWebView (adapted for WKWebKit)UITests";
+			productName = "Lesson 18 - UIWebView (adapted for WKWebKit)UITests";
+			productReference = A87841CA29BB44BE009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A87841A229BB44BC009C58FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A87841A929BB44BC009C58FE = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A87841BF29BB44BE009C58FE = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A87841A929BB44BC009C58FE;
+					};
+					A87841C929BB44BE009C58FE = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A87841A929BB44BC009C58FE;
+					};
+				};
+			};
+			buildConfigurationList = A87841A529BB44BC009C58FE /* Build configuration list for PBXProject "Lesson 18 - UIWebView (adapted for WKWebKit)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A87841A129BB44BC009C58FE;
+			productRefGroup = A87841AB29BB44BC009C58FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A87841A929BB44BC009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit) */,
+				A87841BF29BB44BE009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit)Tests */,
+				A87841C929BB44BE009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A87841A829BB44BC009C58FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87841BA29BB44BE009C58FE /* LaunchScreen.storyboard in Resources */,
+				A87841B729BB44BE009C58FE /* Assets.xcassets in Resources */,
+				A87841B529BB44BC009C58FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87841BE29BB44BE009C58FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87841C829BB44BE009C58FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A87841A629BB44BC009C58FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87841B229BB44BC009C58FE /* ViewController.swift in Sources */,
+				A87841AE29BB44BC009C58FE /* AppDelegate.swift in Sources */,
+				A87841B029BB44BC009C58FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87841BC29BB44BE009C58FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87841C529BB44BE009C58FE /* Lesson_18___UIWebView__adapted_for_WKWebKit_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87841C629BB44BE009C58FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87841CF29BB44BE009C58FE /* Lesson_18___UIWebView__adapted_for_WKWebKit_UITests.swift in Sources */,
+				A87841D129BB44BE009C58FE /* Lesson_18___UIWebView__adapted_for_WKWebKit_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A87841C229BB44BE009C58FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A87841A929BB44BC009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit) */;
+			targetProxy = A87841C129BB44BE009C58FE /* PBXContainerItemProxy */;
+		};
+		A87841CC29BB44BE009C58FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A87841A929BB44BC009C58FE /* Lesson 18 - UIWebView (adapted for WKWebKit) */;
+			targetProxy = A87841CB29BB44BE009C58FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A87841B329BB44BC009C58FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87841B429BB44BC009C58FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A87841B829BB44BE009C58FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87841B929BB44BE009C58FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A87841D229BB44BE009C58FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A87841D329BB44BE009C58FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A87841D529BB44BE009C58FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesson 18 - UIWebView (adapted for WKWebKit)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-18---UIWebView--adapted-for-WKWebKit-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A87841D629BB44BE009C58FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesson 18 - UIWebView (adapted for WKWebKit)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-18---UIWebView--adapted-for-WKWebKit-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A87841D829BB44BE009C58FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-18---UIWebView--adapted-for-WKWebKit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 18 - UIWebView (adapted for WKWebKit).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lesson 18 - UIWebView (adapted for WKWebKit)";
+			};
+			name = Debug;
+		};
+		A87841D929BB44BE009C58FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-18---UIWebView--adapted-for-WKWebKit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 18 - UIWebView (adapted for WKWebKit).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lesson 18 - UIWebView (adapted for WKWebKit)";
+			};
+			name = Release;
+		};
+		A87841DB29BB44BE009C58FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-18---UIWebView--adapted-for-WKWebKit-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesson 18 - UIWebView (adapted for WKWebKit)";
+			};
+			name = Debug;
+		};
+		A87841DC29BB44BE009C58FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-18---UIWebView--adapted-for-WKWebKit-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesson 18 - UIWebView (adapted for WKWebKit)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A87841A529BB44BC009C58FE /* Build configuration list for PBXProject "Lesson 18 - UIWebView (adapted for WKWebKit)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87841D229BB44BE009C58FE /* Debug */,
+				A87841D329BB44BE009C58FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87841D429BB44BE009C58FE /* Build configuration list for PBXNativeTarget "Lesson 18 - UIWebView (adapted for WKWebKit)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87841D529BB44BE009C58FE /* Debug */,
+				A87841D629BB44BE009C58FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87841D729BB44BE009C58FE /* Build configuration list for PBXNativeTarget "Lesson 18 - UIWebView (adapted for WKWebKit)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87841D829BB44BE009C58FE /* Debug */,
+				A87841D929BB44BE009C58FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87841DA29BB44BE009C58FE /* Build configuration list for PBXNativeTarget "Lesson 18 - UIWebView (adapted for WKWebKit)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87841DB29BB44BE009C58FE /* Debug */,
+				A87841DC29BB44BE009C58FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A87841A229BB44BC009C58FE /* Project object */;
+}
